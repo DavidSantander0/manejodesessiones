@@ -1,0 +1,40 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #1a1a1a, #333333);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ff9800;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+button {
+    background-color: #ff9800;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #f57c00;
+    transform: scale(1.1);
+}
